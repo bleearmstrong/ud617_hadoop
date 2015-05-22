@@ -10,7 +10,7 @@ def return_max(list_a):
     return results
 
 
-def mapper():
+def reducer():
     old_key = None
     hours_list = [0]*24
     
@@ -36,7 +36,7 @@ def mapper():
 def main():
 	import StringIO
         sys.stdin = sys.__stdin__
-	mapper()
+	reducer()
 	
 
 main()

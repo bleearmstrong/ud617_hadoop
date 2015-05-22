@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 
-def mapper():
+def reducer():
 
     question_length = "NULL"
     answer_length = 0
@@ -46,7 +46,7 @@ def mapper():
 def main():
 	import StringIO
         sys.stdin = sys.__stdin__
-	mapper()
+	reducer()
 	
 
 main()
